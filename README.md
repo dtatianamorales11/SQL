@@ -12,6 +12,7 @@ Use SQL to:
 
 The next query in the Query Editor to show the first 1,000 rows of the county_natality table.
 
+```sql
 SELECT
   *
 FROM
