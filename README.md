@@ -12,13 +12,13 @@ Use SQL to:
 
 The next query in the Query Editor to show the first 1,000 rows of the county_natality table.
 
-```sql
+
 SELECT
   *
 FROM
  bigquery-public-data.sdoh_cdc_wonder_natality.county_natality
 LIMIT
- 1000
+ 1000;
 
 ![image](https://github.com/user-attachments/assets/84d243e6-20c8-47e0-bc52-2ea1cb0cc4af)
 
@@ -44,7 +44,7 @@ To answer this, you will need the following information:
 
 The next Query will filter the results by county and sort the results by year and county. This will allow you to determine if the number of births is increasing or decreasing in each county.
 
-```sql
+
 SELECT
   *
 FROM
