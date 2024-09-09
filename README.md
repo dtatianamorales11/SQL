@@ -43,6 +43,7 @@ To answer this, you will need the following information:
 
 The next Query will filter the results by county and sort the results by year and county. This will allow you to determine if the number of births is increasing or decreasing in each county.
 
+```sql
 SELECT
   *
 FROM
